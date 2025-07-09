@@ -1,0 +1,31 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    #profile {
+        display: block;
+    }
+
+    section {
+        height: fit-content;
+        margin: 0 5%;
+    }
+
+    .section_pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        margin-top: 2rem; /* adds space above the footer */
+        padding-top: 1rem;
+    }
+}
